@@ -1,0 +1,20 @@
+{
+    "name": "Speed-Test",
+    "version": "1.0.0",
+    "description": "Check Speed now",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://apis.google.com/*"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "author": "Vanshcodeworks",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Speed Test"
+    }
+}
