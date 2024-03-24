@@ -3,44 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suiii</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <title>Speed test</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-
-*{
- margin: 0;
- padding: 0;
-box-sizing: border-box;
-font: poppins ;
-}
-body{
-    height: 80px;
-    width: 100px;
-}
-    h1 {
-        color: rgb(38, 67, 67);
-        margin: 0;
-       }
-
-        .popup-container{
-            background-color: rgba(141, 89, 89, 0.8);
-            border: 1px solid #b54747;
-            border-radius: 5px;
-            user-select: none; 
-        }
-        .popup-container button img {
-            height: 18px;
-            width: 18px;
-        }
-</style>
 <body>
-    <div class="popup-container" id="popupContainer">
-
-    <h1 id="progress" style="font-family:sans-serif">Browser is slow</h1>
-    <button id="refreshButton"><img src="loading-arrow.png" alt="" srcset=""></button>
+    <div id = main class="popup-container">
+        <div id = top>
+            <h1>SPEEDTEST</h1>
+        </div>
+        <div id="mid">
+            <h2 id="progress">YOUR INTERNET SPEED IS:</h2>
+        </div>
+        <div id="button">
+        <button><i id='refreshButton' class="ri-refresh-line"></i></button>
+        </div>
     </div>
-
 </body>
 <script src="script.js"></script>
 </html>
